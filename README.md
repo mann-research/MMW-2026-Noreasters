@@ -7,8 +7,8 @@ Weaver, M.M., D.K Apoznanski, O. Asselin, A.J. Broccoli, A.J. Garner, A.L. Horto
 * Contains subdirectories for each dataset (CFSR, ERA5, and CRCM5).
 * The CRCM5 subdirectory contains folders for each dynamically downscaled historical simulation (CRCM5-ERA5, CRCM5-CanESM5, CRCM5-CNRM, CRCM5-MPI, and CRCM5-NorESM2).
   * The MPI subdirectory contains additional folders for each member (sim1 through sim5).
-* The final folder in each directory contains `YYYY_stormtracks_unfiltered.csv`, which contains storm data for all cyclones tracked in a given nor'easter season for the specified simulation (where the season is September to April, and YYYY is the *end* year of that nor'easter season).
-  * The ERA5 storm track files (data from Chen et al., (2025) follow the naming convention `YYYY_tracks_final.csv`, where YYYY is the *start* year of that nor'easter season).
+* The final folder in each directory contains `YYYY_stormtracks_unfiltered.csv`, which contains storm data for all cyclones tracked in a given nor'easter season for the specified simulation (where the season is September to April, and YYYY is the **end** year of that nor'easter season).
+  * The ERA5 storm track files (data from Chen et al., (2025) follow the naming convention `YYYY_tracks_final.csv`, where YYYY is the **start** year of that nor'easter season).
 ### Wind Data (located in the /data/storm_wind directory):
 * Contains subdirectories for each dataset that requires separate wind data files (CFSR and CRCM5 only — ERA5 wind data is included in the storm track CSVs).
 * The CRCM5 subdirectory contains folders for each dynamically downscaled historical simulation (CRCM5-ERA5, CRCM5-CanESM5, CRCM5-CNRM, CRCM5-MPI, and CRCM5-NorESM2).
