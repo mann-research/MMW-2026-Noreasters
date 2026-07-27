@@ -20,3 +20,5 @@ Weaver, M.M., D.K Apoznanski, O. Asselin, A.J. Broccoli, A.J. Garner, A.L. Horto
 * `hist_noreaster_intensity_analysis.R` contains all analysis code necessary to generate main text Figures 2-8 and Supplementary Figures S1-2 & S7-16, which includes analyses of historical nor'easter intensity and intensification rate quantiles, track locations, and peak intensity/intensification rate locations.
 * `figures_hist_nor'easter_intensity.R` contains the code that creates main text Figures 2-8 and Supplementary Figures S1-2 & S7-16.
 * `TC_filter_hist_noreaster_intensity.R` contains all analysis code necessary to generate Table 1, main text Figure 1, and Supplementary Figures S3-6 & S10, which includes functionality testing of the tropical cyclone filter applied to the tracked cyclone datasets.
+
+## This repository is licensed under CC BY 4.0. See `LICENSE.md` for details.
